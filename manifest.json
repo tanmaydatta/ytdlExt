@@ -1,0 +1,21 @@
+
+{
+  "manifest_version": 2,
+ 
+  "name": "ytdlExt",
+  "version": "0.1.0",
+  "description": "ytdlExt",
+  "background": {
+        "persistent":true,
+        "page":"bg.html"
+    },
+  "content_scripts": [{
+    "js": [ "jquery.min.js", "content.js"],
+    "matches": ["https://www.youtube.com/*"]
+  }],
+  "permissions": [
+        "tabs",
+        "https://www.youtube.com/*"
+    ]
+ 
+}
