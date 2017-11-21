@@ -2,7 +2,7 @@ function locationHashChanged() {
 	var urlToParse = window.location.href;
 	if (!document.getElementById("atag")) {
 		var imgTag = document.createElement("img");
-		imgTag.src = "http://www.iconarchive.com/download/i86012/graphicloads/100-flat-2/arrow-download.ico";
+		imgTag.src = "https://api.icons8.com/download/231c4cb380f2ab0e685e72f32260b21c55a0de16/Color/PNG/256/Very_Basic/download_2-256.png";
 		imgTag.style.cssText = "width: 50px; height: 50px; display: block;";	
 		imgTag.id = "imgTag";
 		var aTag = document.createElement('a');
